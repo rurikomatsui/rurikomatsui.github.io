@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-/dist
+# /dist  https://gist.github.com/belohlavek/61dd16c08cd9c57a168408b9ac4121c2
 
 # local env files
 .env.local
