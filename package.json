@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "bootstrap-vue": "^2.5.0",
+    "bootstrap-vue": "^2.6.1",
     "core-js": "^3.4.4",
     "css-loader": "^3.4.2",
     "node-sass": "^4.13.1",
@@ -27,9 +27,13 @@
     "@vue/eslint-config-prettier": "^5.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^5.16.0",
+    "eslint-loader": "^3.0.3",
+
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.13.1",
     "prettier": "^1.19.1",
+    "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {

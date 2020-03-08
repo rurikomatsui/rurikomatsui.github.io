@@ -1,0 +1,73 @@
+// overrides default vairables of bootstrap.
+// refer to /node_modules/bootstrap/scss/_variables.scss for default variables
+// referred from App.vue in `@import 'assets/custom-vars.scss';`
+// hopefully this solves the issue of typekit webfont not loading properly...
+
+// Define your variable overrides here
+
+// Options
+/*! `Custom` Bootstrap 4 theme */
+
+// Add SASS theme customizations here..
+// $enable-rounded: false;
+
+// Cards
+
+// $card-border-width: 0;
+
+// Navbar
+
+$navbar-padding-y: 0;
+$navbar-padding-x: 0;
+
+// https://themestr.app/theme?start=1&font=Zilla%20Slab%20Highlight&palette=2&icons=linearicons&border-width=1px&spacer=1rem&btn-border-radius=0&enable-gradients=false
+
+$primary: #2f3c48;
+$secondary: #6f7f8c;
+$success: #3e4d59;
+$danger: #cc330d;
+$info: #5c8f94;
+// $warning: #6e9fa5;
+$light: #eceeec;
+$dark: #1e2b37;
+$enable-gradients: false;
+
+// Typography
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:200,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:200,400&display=swap&subset=japanese');
+// @import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+$headings-font-family: 'ten-mincho', 'Noto Serif JP', serif; //'Zilla Slab Highlight'
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, Roboto,
+  'Helvetica Neue', 'Segoe UI', 'Noto Sans', Arial, sans-serif,
+  　 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+  'Noto Color Emoji';
+$font-family-serif: 'Ryumin Light KL', 'Noto Serif JP', 'Helvetica Neue';
+// '游明朝体', 'YuMincho', '游明朝', 'Yu Mincho', 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN W3', HiraMinProN-W3, 'ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', 'ヒラギノ明朝 Pro', 'Hiragino Mincho Pro', 'HGS明朝E', 'ＭＳ Ｐ明朝', 'MS PMincho', 'Times New Roman', serif;
+$font-family-base: $font-family-serif;
+
+// font weight
+
+$font-weight-normal: 200;
+
+// is changing gutter popular?
+
+$grid-gutter-width: 32px;
+
+//
+
+// Include Bootstrap and BootstrapVue SCSS files
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+// General style overrides and custom classes
+
+.navbar {
+  min-height: 120px;
+}
+
+/*
+.my-widget {
+  color: var(--danger);
+}
+*/
